@@ -5,13 +5,152 @@
 
 #octocat {
   display: block;
-  width:384px;
-  margin: 50px auto;
+  width:84px;
+  margin: 10px auto;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+#gif {
+  width: 70px;
+  margin: 10px;
 }
+
+body {
+  width: 530px;
+  overflow: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(202, 1, 1);
+  padding-top: 50px;
+  /*border: solid 1px;*/
+  /*font-variant: small-caps;*/
+}
+
+.index{
+  font-size: 197%;
+  font-weight: bold;
+  color: rgb(202, 1, 1);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  text-decoration: none;
+}
+
+.f1 {
+  font-size: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: auto;
+  /*border: solid 1px;*/
+}
+
+.menu {
+  padding: 10px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: rgb(202, 1, 1);
+}
+
+.focusmenu {
+  padding: 10px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: cornflowerblue;
+  /*font-weight: bold;*/
+}
+
+.focus {
+  padding: 5px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: cornflowerblue;
+  /*font-weight: bold;*/
+}
+
+.f2 {
+  font-size: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: hidden;
+  /*border: solid 1px;*/
+}
+
+.keywords {
+  padding: 5px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: rgb(202, 1, 1);
+}
+
+.little {
+  margin-top: 15pt;
+  margin-bottom: 4pt;
+  font-size: 7pt;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 160%;
+  color: rgb(202, 1, 1);
+  /*border: solid 1px;*/
+}
+
+.f3{
+  width: 530 px;
+  overflow: auto;
+  border: solid 1px;
+  margin-top: 77px;
+}
+
+.vignette {
+  padding: 10px;
+  width: 260px;
+  float: left;
+  clear: both;
+}
+
+.vignettevertical {
+  padding: 10px;
+  width: 130px;
+  float: left;
+  clear: both;
+}
+
+.vigtext {
+  font-size: 117%;
+  padding-top: 10px;
+  /*text-decoration:underline;*/
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+em {
+  /*color: cornflowerblue;*/
+  color: rgb(119, 119, 119);
+  padding-right: 5px;
+}
+
+footer {
+  margin-top: 77px;
+  margin-bottom: 15pt;
+  font-size: 7pt;
+  text-align: center;
+  letter-spacing: 1px;
+  /*background-color: cornflowerblue;*/
+  /*border: solid 1px;*/
+  line-height: 160%;
+  padding: 20px;
+  color: rgb(202, 1, 1);
+  /*position: relative;
+  top: 477px;*/
+}
+

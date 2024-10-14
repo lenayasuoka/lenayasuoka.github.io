@@ -161,6 +161,13 @@ em {
   text-align: left;
 }
 
+.subtitle {
+    color: rgb(119, 119, 119);
+    padding: 10px;
+    border: solid 1px;
+    margin-top: 50px;
+}
+
 .projectkeywords {
   color: rgb(119, 119, 119);
   padding-bottom: 13px;
@@ -190,6 +197,21 @@ em {
   padding-right: 127px;
 }
 
+.video5 {
+  margin-left: 15px;
+  padding-right: 127px;
+}
+
+.video6 {
+  margin-left: 20px;
+  padding-right: 127px;
+}
+
+.video7 {
+  margin-left: 50px;
+  padding-right: 127px;
+}
+
 .projectimg {
   float: left;
   padding-top: 50px;
@@ -197,8 +219,7 @@ em {
 }
 
 .divappear {
-  left: 987px;
-  padding-right: 77px;
+/*  padding-right: 77px;*/
   display: flex;
 }
 
@@ -228,6 +249,11 @@ em {
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
+}
+
+.pdf{
+  border: solid 1px;
+  margin-top: 50px;
 }
 
 footer {

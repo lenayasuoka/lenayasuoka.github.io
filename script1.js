@@ -66,3 +66,53 @@ var myVideo3 = document.getElementById("video3");
      myVideo4.height = 300; 
    }
   
+var myVideo5 = document.getElementById("video5"); 
+
+   /* function playPause5() { 
+      if (myVideo5.paused) 
+        myVideo5.play(); 
+      else 
+        myVideo5.pause(); 
+    } */
+    function makeBig5() { 
+      myVideo5.width = 1097; 
+      myVideo5.height = 633; 
+    } 
+    function makeSmall5() {
+      myVideo5.width = 500; 
+      myVideo5.height = 300; 
+    }
+
+var myVideo6 = document.getElementById("video6"); 
+
+   /* function playPause6() { 
+      if (myVideo6.paused) 
+        myVideo6.play(); 
+      else 
+        myVideo6.pause(); 
+    } */
+    function makeBig6() { 
+      myVideo6.width = 1010; 
+      myVideo6.height = 633; 
+    } 
+    function makeSmall6() {
+      myVideo6.width = 480; 
+      myVideo6.height = 300; 
+    }
+
+    var myVideo7 = document.getElementById("video7"); 
+
+    /* function playPause7() { 
+       if (myVideo7.paused) 
+         myVideo7.play(); 
+       else 
+         myVideo7.pause(); 
+     } */
+     function makeBig7() { 
+       myVideo7.width = 867; 
+       myVideo7.height = 633; 
+     } 
+     function makeSmall7() {
+       myVideo7.width = 410; 
+       myVideo7.height = 300; 
+     }

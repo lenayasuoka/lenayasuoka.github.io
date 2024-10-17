@@ -256,6 +256,12 @@ em {
   margin-top: 50px;
 }
 
+.absolute {
+  position: absolute;
+  left: 77px;
+  padding-top: 50px;
+}
+
 footer {
   margin-top: 77px;
   margin-bottom: 15pt;

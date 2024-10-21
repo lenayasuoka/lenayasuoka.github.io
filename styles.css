@@ -168,6 +168,13 @@ em {
     margin-top: 50px;
 }
 
+.underconstruction {
+  color: rgb(119, 119, 119);
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .projectkeywords {
   color: rgb(119, 119, 119);
   padding-bottom: 13px;
@@ -185,6 +192,13 @@ em {
   padding-bottom: 50px;
   text-align: left;
   text-indent: 50px;
+}
+
+.projecttextsquote {
+  padding-right: 77px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
 }
 
 .video1 {

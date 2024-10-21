@@ -116,3 +116,20 @@ var myVideo6 = document.getElementById("video6");
        myVideo7.width = 410; 
        myVideo7.height = 300; 
      }
+
+     var myVideo8 = document.getElementById("video8"); 
+
+     /* function playPause8() { 
+        if (myVideo8.paused) 
+          myVideo8.play(); 
+        else 
+          myVideo8.pause(); 
+      } */
+      function makeBig8() { 
+        myVideo8.width = 1160
+        myVideo8.height = 827; 
+      } 
+      function makeSmall8() {
+        myVideo8.width = 580;
+        myVideo8.height = 417; 
+      }

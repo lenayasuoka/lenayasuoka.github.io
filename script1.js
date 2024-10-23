@@ -133,3 +133,14 @@ var myVideo6 = document.getElementById("video6");
         myVideo8.width = 580;
         myVideo8.height = 417; 
       }
+
+      var myVideo9 = document.getElementById("video9"); 
+
+       function makeBig9() { 
+         myVideo9.width = 1160
+         myVideo9.height = 827; 
+       } 
+       function makeSmall9() {
+         myVideo9.width = 580;
+         myVideo9.height = 817; 
+       }

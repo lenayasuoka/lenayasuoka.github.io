@@ -232,6 +232,13 @@ em {
   padding-right: 42px;
 }
 
+.bigprojectimg {
+  float: left;
+  margin-top: 50px;
+  margin-right: 100px;
+  border: solid 1px;
+}
+
 .divappear {
 /*  padding-right: 77px;*/
   display: flex;

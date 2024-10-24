@@ -166,6 +166,7 @@ em {
     padding: 10px;
     border: solid 1px;
     margin-top: 50px;
+    width: 512px;
 }
 
 .underconstruction {
@@ -173,6 +174,7 @@ em {
   padding: 10px;
   text-align: center;
   margin-top: 50px;
+  width: 530px;
 }
 
 .projectkeywords {
@@ -230,6 +232,12 @@ em {
   float: left;
   padding-top: 50px;
   padding-right: 42px;
+}
+
+.postcards {
+  float: left;
+  margin-top: 50px;
+  margin-right: 42px;
 }
 
 .bigprojectimg {
@@ -296,5 +304,6 @@ footer {
   color: rgb(202, 1, 1);
   /*position: relative;
   top: 477px;*/
+  width: 530px;
 }
 

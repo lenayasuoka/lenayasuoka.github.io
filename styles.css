@@ -9,30 +9,6 @@
 
 
 
-/* IMAGES */
-#gif {
-  width: 70px;
-  margin: 10px;
-}
-
-/* works project vignette (landscape) */
-.vignette {
-  padding: 10px;
-  width: 260px;
-  float: left;
-  clear: both;
-}
-
-/* works project vignette (portrait) */
-.vignettevertical {
-  padding: 10px;
-  width: 130px;
-  float: left;
-  clear: both;
-}
-
-
-
 /* MAIN STRUCTURES */
 body {
   width: 530px;
@@ -66,9 +42,111 @@ body {
   margin-top: 77px;
 }
 
+footer {
+  margin-top: 77px;
+  margin-bottom: 15pt;
+  font-size: 7pt;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 160%;
+  padding: 20px;
+  color: rgb(202, 1, 1);
+  width: 530px;
+}
+
+
+
+/* IMAGES */
+#gif {
+  width: 70px;
+  margin: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.pdf{
+  border: solid 1px;
+  margin-top: 50px;
+}
+
+/* works project vignette (landscape) */
+.vignette {
+  padding: 10px;
+  width: 260px;
+  float: left;
+  clear: both;
+}
+
+/* works project vignette (portrait) */
+.vignettevertical {
+  padding: 10px;
+  width: 130px;
+  float: left;
+  clear: both;
+}
+
+.projectimg {
+  float: left;
+  padding-top: 50px;
+  padding-right: 42px;
+}
+
+/* illuminations project */
+.bigprojectimg {
+  float: left;
+  margin-top: 50px;
+  margin-right: 100px;
+  border: solid 1px;
+}
+
+.postcards {
+  float: left;
+  margin-top: 50px;
+  margin-right: 42px;
+}
+
+.absolute {
+  position: absolute;
+  left: 77px;
+  padding-top: 50px;
+}
+
+
+
+/* VIDEOS */
+.video1 {
+  padding-top: 20px;
+  padding-right: 127px;
+}
+
+.video2 {
+  padding-top: 20px;
+  padding-right: 127px;
+}
+
+.video5 {
+  margin-left: 15px;
+  padding-right: 127px;
+}
+
+.video6 {
+  margin-left: 20px;
+  padding-right: 127px;
+}
+
+.video7 {
+  margin-left: 50px;
+  padding-right: 127px;
+}
+
+
 
 /* TEXTS */
-
 /* title */
 .index {
   font-size: 2em;
@@ -106,7 +184,7 @@ body {
 }
 
 /* WORKS TEXT */
-/* works keywords list */
+/* works: keywords list */
 .keywords {
   font-size: 1.15em;
   padding: 5px;
@@ -115,7 +193,7 @@ body {
   color: rgb(202, 1, 1);
 }
 
-/* works project description (title, date) */
+/* works: project description (title, date) */
 .vigtext {
   font-size: 1.2em;
   padding-top: 10px;
@@ -129,67 +207,16 @@ em {
   padding-right: 5px;
 }
 
-/* PROJECT PAGE TEXT */
-
-
-
-/* LINKS */
-a:hover {
-  color: cornflowerblue;
-}
-
-/* menu text when clicked on */
-.focusmenu {
-  font-size: 1.15em;
-  padding: 10px;
-  font-variant: small-caps;
-  text-decoration: none;
-  color: cornflowerblue;
-}
-
-/* works keywords when clicked on */
-.focus {
-  font-size: 1.15em;
-  padding: 5px;
-  font-variant: small-caps;
-  text-decoration: none;
-  color: cornflowerblue;
-}
-
-
-
-
-
-
-
-
+/* PROJECT PAGE TEXTS */
+/* title */
 .projecttitle {
-  font-size: 117%;
+  font-size: 1.15em;
   padding: 10px;
-  /*text-decoration:underline;*/
   font-variant: small-caps;
   font-weight: bold;
   border: solid 1px;
-  /*color: cornflowerblue;*/
-  /*color: rgb(202, 1, 1);*/
-  /*color: rgb(119, 119, 119);*/
+
   text-align: left;
-}
-
-.subtitle {
-    color: rgb(119, 119, 119);
-    padding: 10px;
-    border: solid 1px;
-    margin-top: 50px;
-    width: 512px;
-}
-
-.underconstruction {
-  color: rgb(119, 119, 119);
-  padding: 10px;
-  text-align: center;
-  margin-top: 50px;
-  width: 530px;
 }
 
 .projectkeywords {
@@ -218,62 +245,15 @@ a:hover {
   text-align: left;
 }
 
-.video1 {
-  padding-top: 20px;
-  padding-right: 127px;
-}
-
-.video2 {
-  padding-top: 20px;
-  padding-right: 127px;
-}
-
-.video5 {
-  margin-left: 15px;
-  padding-right: 127px;
-}
-
-.video6 {
-  margin-left: 20px;
-  padding-right: 127px;
-}
-
-.video7 {
-  margin-left: 50px;
-  padding-right: 127px;
-}
-
-.projectimg {
-  float: left;
-  padding-top: 50px;
-  padding-right: 42px;
-}
-
-.postcards {
-  float: left;
-  margin-top: 50px;
-  margin-right: 42px;
-}
-
-.bigprojectimg {
-  float: left;
-  margin-top: 50px;
-  margin-right: 100px;
+.subtitle {
+  color: rgb(119, 119, 119);
+  padding: 10px;
   border: solid 1px;
-}
-
-.divappear {
-/*  padding-right: 77px;*/
-  display: flex;
-}
-
-.container {
-  align-items: center; 
-  float: left;
+  margin-top: 50px;
+  width: 512px;
 }
 
 .credit {
-  font-size: 77%;
   padding-top: 7px;
   padding-bottom: 50px;
   color: rgb(119, 119, 119);
@@ -281,44 +261,53 @@ a:hover {
 }
 
 .collaboration {
-  font-size: 82%;
   padding-top: 50px;
   padding-bottom: 50px;
   color: rgb(119, 119, 119);
   text-align: center;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-}
-
-.pdf{
-  border: solid 1px;
-  margin-top: 50px;
-}
-
-.absolute {
-  position: absolute;
-  left: 77px;
-  padding-top: 50px;
-}
-
-footer {
-  margin-top: 77px;
-  margin-bottom: 15pt;
-  font-size: 7pt;
+.underconstruction {
+  color: rgb(119, 119, 119);
+  padding: 10px;
   text-align: center;
-  letter-spacing: 1px;
-  /*background-color: cornflowerblue;*/
-  /*border: solid 1px;*/
-  line-height: 160%;
-  padding: 20px;
-  color: rgb(202, 1, 1);
-  /*position: relative;
-  top: 477px;*/
+  margin-top: 50px;
   width: 530px;
 }
 
+
+
+/* LINKS */
+a:hover {
+  color: cornflowerblue;
+}
+
+/* menu text when clicked on */
+.focusmenu {
+  font-size: 1.15em;
+  padding: 10px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+/* works keywords when clicked on */
+.focus {
+  font-size: 1.15em;
+  padding: 5px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+
+
+/* SCRIPTS */
+.divappear {
+  display: flex;
+}
+
+.container {
+  align-items: center; 
+  float: left;
+}

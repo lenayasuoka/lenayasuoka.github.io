@@ -1,19 +1,39 @@
+/* GENERAL */
 * {
   margin:0px;
   padding:0px;
+  font-size: 11pt;
+  line-height: 1.2em;
+  scroll-behavior: smooth;
 }
 
-#octocat {
-  display: block;
-  width:84px;
-  margin: 10px auto;
-}
 
+
+/* IMAGES */
 #gif {
   width: 70px;
   margin: 10px;
 }
 
+/* works project vignette (landscape) */
+.vignette {
+  padding: 10px;
+  width: 260px;
+  float: left;
+  clear: both;
+}
+
+/* works project vignette (portrait) */
+.vignettevertical {
+  padding: 10px;
+  width: 130px;
+  float: left;
+  clear: both;
+}
+
+
+
+/* MAIN STRUCTURES */
 body {
   width: 530px;
   overflow: auto;
@@ -24,109 +44,21 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
-h1 {
-  text-align: center;
-  color: rgb(202, 1, 1);
-  padding-top: 50px;
-  /*border: solid 1px;*/
-  /*font-variant: small-caps;*/
-}
-
-.index {
-  font-size: 177%;
-  font-weight: bold;
-  color: rgb(202, 1, 1);
-  display: flex;
-  /*justify-content: center;*/
-  padding-top: 50px;
-  text-decoration: none;
-}
-
-.indextext {
-  text-align: center;
-  color: rgb(202, 1, 1);
-  margin-bottom: 30px;
-  padding: 10px;
-}
-
-.indextext2 {
-  text-align: left;
-  color: rgb(202, 1, 1);
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-.f4 {
-  color: rgb(0, 0, 0);
-  /*display: flex;
-  justify-content: center;
-  text-decoration: none;
-  text-align: center;*/
-  padding-top: 10px;
-}
-
+/* menu */
 .f1 {
-  font-size: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
   overflow: hidden;
-  /*border: solid 1px;*/
 }
 
-.menu {
-  padding: 10px;
-  font-variant: small-caps;
-  text-decoration: none;
-  color: rgb(202, 1, 1);
-}
-
-.focusmenu {
-  padding: 10px;
-  font-variant: small-caps;
-  text-decoration: none;
-  color: cornflowerblue;
-}
-
-a:hover {
-  color: cornflowerblue;
-  /*font-weight: bold;*/
-}
-
-.focus {
-  padding: 5px;
-  font-variant: small-caps;
-  text-decoration: none;
-  color: cornflowerblue;
-  /*font-weight: bold;*/
-}
-
+/* works keyword list */
 .f2 {
-  font-size: 100%;
-  margin-bottom: 30px;
   text-align: center;
   overflow: hidden;
-  /*border: solid 1px;*/
 }
 
-.keywords {
-  padding: 5px;
-  font-variant: small-caps;
-  text-decoration: none;
-  color: rgb(202, 1, 1);
-}
-
-.little {
-  margin-top: 15pt;
-  margin-bottom: 4pt;
-  font-size: 7pt;
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 160%;
-  color: rgb(202, 1, 1);
-  /*border: solid 1px;*/
-}
-
+/* works project listed element*/
 .f3 {
   width: 530 px;
   overflow: auto;
@@ -134,33 +66,102 @@ a:hover {
   margin-top: 77px;
 }
 
-.vignette {
-  padding: 10px;
-  width: 260px;
-  float: left;
-  clear: both;
+
+/* TEXTS */
+
+/* title */
+.index {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(202, 1, 1);
+  display: flex;
+  padding-top: 50px;
+  text-decoration: none;
 }
 
-.vignettevertical {
+/* (works, cv) */
+.menu {
+  font-size: 1.15em;
   padding: 10px;
-  width: 130px;
-  float: left;
-  clear: both;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: rgb(202, 1, 1);
 }
 
+/* INDEX TEXT */
+/* index page: keywords */
+.indextext1 {
+  text-align: center;
+  color: rgb(202, 1, 1);
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+/* index page: subtitles */
+.indextext2 {
+  text-align: left;
+  color: rgb(202, 1, 1);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* WORKS TEXT */
+/* works keywords list */
+.keywords {
+  font-size: 1.15em;
+  padding: 5px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: rgb(202, 1, 1);
+}
+
+/* works project description (title, date) */
 .vigtext {
-  font-size: 117%;
+  font-size: 1.2em;
   padding-top: 10px;
-  /*text-decoration:underline;*/
   font-variant: small-caps;
   font-weight: bold;
 }
 
 em {
-  /*color: cornflowerblue;*/
+  font-size: 1.1em;
   color: rgb(119, 119, 119);
   padding-right: 5px;
 }
+
+/* PROJECT PAGE TEXT */
+
+
+
+/* LINKS */
+a:hover {
+  color: cornflowerblue;
+}
+
+/* menu text when clicked on */
+.focusmenu {
+  font-size: 1.15em;
+  padding: 10px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+/* works keywords when clicked on */
+.focus {
+  font-size: 1.15em;
+  padding: 5px;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+
+
+
+
+
+
 
 .projecttitle {
   font-size: 117%;

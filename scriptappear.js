@@ -65,3 +65,19 @@ function getObj(name)
 	
 	return false;
 }
+
+  /* fullscreen image */
+var img = document.getElementById("MyImage");
+
+let enlarged=0;
+function enlargeImg() {
+     if (enlarged===0){
+       img.style.transform = "scale(2)";
+       enlarged = 1;
+     }
+     else{
+       img.style.transform = "scale(1)";
+       enlarged = 0;
+     }
+     return enlarged;
+  }

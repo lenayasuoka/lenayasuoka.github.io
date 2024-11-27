@@ -74,6 +74,19 @@ footer {
   margin-top: 50px;
 }
 
+svg {
+  color: rgb(202, 1, 1);
+}
+
+.button {
+  padding-top: 7px;
+  padding-right: 7px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
 /* works project vignette (landscape) */
 .vignette {
   padding: 10px;
@@ -258,13 +271,16 @@ em {
 }
 
 .credit {
-  padding-top: 7px;
+  font-size: .8em;
+  font-style: italic;
   padding-bottom: 50px;
   color: rgb(119, 119, 119);
   text-align: left;
 }
 
 .collaboration {
+  font-size: .8em;
+  font-style: italic;
   padding-top: 50px;
   padding-bottom: 50px;
   color: rgb(119, 119, 119);
@@ -282,8 +298,12 @@ em {
 
 
 /* LINKS */
+a {
+  color: black;
+}
+
 a:hover {
-  color: cornflowerblue;
+  color: cornflowerblue !important;
 }
 
 /* menu text when clicked on */

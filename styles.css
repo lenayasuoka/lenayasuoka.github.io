@@ -95,6 +95,7 @@ svg {
   clear: both;
 }
 
+
 /* works project vignette (portrait) */
 .vignettevertical {
   padding: 10px;
@@ -127,7 +128,20 @@ svg {
   position: absolute;
   left: 77px;
   padding-top: 50px;
+  width: 300px;
 }
+
+.absolute2 {
+  position: absolute;
+  left: 455px;
+  padding-top: 50px;
+  width: 300px;
+}
+
+.absolute3 {
+  left: 455px;
+  padding-top: 50px;
+  width: 300px;}
 
 
 
